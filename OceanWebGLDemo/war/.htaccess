@@ -1,0 +1,2 @@
+ErrorDocument 404 http://www.igosoftware.es/404.html 
+php_value memory_limit 128M
