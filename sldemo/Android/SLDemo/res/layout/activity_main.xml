@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+            <RelativeLayout 
+    android:id="@+id/g3mWidgetHolder"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:visibility="invisible"
+     >
+    </RelativeLayout>
+
+                 <Button
+                android:id="@+id/changeBaseLayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/bgbutton"
+                 android:visibility="invisible"
+                android:textColor="@android:color/background_dark"
+                android:text="@string/changeBaselayer"></Button>
+                 
+                 
+       <RelativeLayout 
+    android:id="@+id/g3mSplashHolder"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+  >
+    
+    
+  <ImageView
+        android:id="@+id/splash"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/splash" />
+
+  </RelativeLayout>             
+
+</RelativeLayout>

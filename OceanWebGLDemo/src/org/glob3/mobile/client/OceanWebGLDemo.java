@@ -74,7 +74,7 @@ public class OceanWebGLDemo
 
       final URLTemplateLayer heatMap = URLTemplateLayer.newWGS84(
                "http://igosoftware.dyndns.org:8014/geoserver/gwc/service/tms/1.0.0/IGO:storm-points/{level}/{x}/{y2}.png",
-               Sector.fullSphere(), true, 2, 18, TimeInterval.fromDays(30), true, new LevelTileCondition(0, 18));
+               Sector.fullSphere(), true, 0, 18, TimeInterval.fromDays(30), true, new LevelTileCondition(0, 18));
 
       //      final URLTemplateLayer heatMap = URLTemplateLayer.newWGS84(
       //               "http://igosoftware.dyndns.org:8014/geoserver/gwc/service/tms/1.0.0/IGO:storm-points-heat-map/{level}/{x}/{y2}.png",

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='com.glob3mobile.SLDemoWebGL'>
+	<inherits name="com.google.gwt.user.User" />
+	<inherits name="com.google.gwt.http.HTTP" />
+	<inherits name="org.glob3.mobile.G3MWebGLSDK" />
+	<inherits name="com.glob3mobile.sldemo.shared" />
+	<inherits name="com.google.gwt.resources.Resources" />
+  <source path='client'/>
+  <entry-point class="com.glob3mobile.client.SLDemoWebGL" />
+</module>
